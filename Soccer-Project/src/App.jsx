@@ -1,8 +1,7 @@
-import Button from "react-bootstrap/Button";
-import "bootstrap/dist/css/bootstrap.min.css";
+import PlayerList from "./components/PlayerList";
 
 function App() {
-  return <h1>Hello world</h1>;
+  return <PlayerList />;
 }
 
 export default App;
